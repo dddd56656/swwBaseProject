@@ -1,0 +1,77 @@
+# Java
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+target/
+bin/
+out/
+*.log
+
+# Maven/Gradle
+.settings/
+.metadata
+.project
+.classpath
+.idea/
+*.iml
+
+# JetBrains 全部IDE
+.idea/
+
+# VSCode
+.vscode/
+.history/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Eclipse
+*.pydevproject
+*.launch
+*.settings/
+*.cproject
+*.factorypath
+*.project
+*.classpath
+.externalToolBuilders/
+.recommenders/
+.apt_generated/
+.apt_generated_test/
+.cache-main
+.scala_dependencies
+.worksheet
+.springBeans
+.target
+.tern-project
+.texlipse
+
+# 仅保留 VSCode 配置（如需）
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 排除.idea所有内容
+.idea/
